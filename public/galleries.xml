@@ -3,29 +3,29 @@
   <settings>
     <transitions duration="1.5"/>
     <auto_play>
-      <defaults symbol="circular" time="7"/>
-      <tweenIn tint="0xFFFFFF" y="50" alpha="0.5" height="30" width="30" x="910"/>
+      <defaults time="7" symbol="circular"/>
+      <tweenIn y="50" x="910" tint="0xFFFFFF" width="30" alpha="0.5" height="30"/>
       <tweenOver alpha="1"/>
     </auto_play>
     <prev_button>
       <defaults round_corners="5,5,5,5"/>
-      <tweenOver tint="0xFFFFFF" scaleX="1.1" scaleY="1.1"/>
+      <tweenOver scaleX="1.1" scaleY="1.1" tint="0xFFFFFF"/>
       <tweenOut tint="0x000000"/>
     </prev_button>
     <prev_symbol>
-      <tweenOver tint="0x000000" time="0.15"/>
+      <tweenOver time="0.15" tint="0x000000"/>
     </prev_symbol>
     <next_button>
       <defaults round_corners="5,5,5,5"/>
-      <tweenOver tint="0xFFFFFF" scaleX="1.1" scaleY="1.1"/>
+      <tweenOver scaleX="1.1" scaleY="1.1" tint="0xFFFFFF"/>
       <tweenOut tint="0x000000"/>
     </next_button>
     <next_symbol>
-      <tweenOver tint="0x000000" time="0.15"/>
+      <tweenOver time="0.15" tint="0x000000"/>
     </next_symbol>
     <description>
-      <defaults heading_text_color="0xFF9000" paragraph_text_size="18" paragraph_text_color="0xFFFFFF" round_corners="10, 10, 10, 10" heading_text_size="28"/>
-      <tweenIn y="360" alpha="0.5" height="170" width="660" x="150"/>
+      <defaults heading_text_size="28" heading_text_color="0xFF9000" paragraph_text_size="18" paragraph_text_color="0xFFFFFF" round_corners="10, 10, 10, 10"/>
+      <tweenIn y="360" x="150" width="660" alpha="0.5" height="170"/>
       <tweenOver alpha="0.8"/>
     </description>
   </settings>
@@ -65,6 +65,15 @@
         <link target="_self">/galleries/people</link>
         <heading>People</heading>
         <paragraph>people</paragraph>
+      </description>
+    </slide>
+    <slide>
+      <url>/attachments/galleries/9/original/4575336011_2bbba0a733_b.jpg?1286651571</url>
+      <link target="_self">/galleries/food-photography</link>
+      <description>
+        <link target="_self">/galleries/food-photography</link>
+        <heading>Food Photography</heading>
+        <paragraph>My favorite food, photographed!</paragraph>
       </description>
     </slide>
   </slides>
