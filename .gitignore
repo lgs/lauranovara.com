@@ -6,7 +6,7 @@ db/*.sql
 db/*.bz2
 db/*.sqlite3
 db/schema.rb
-db/README.mysqldump
+db/README.mysql.dump
 db/lauranovara-db.*
 db/lauranovara-db.sql
 public/attachments/**/*
