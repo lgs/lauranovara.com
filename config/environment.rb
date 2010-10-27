@@ -30,8 +30,11 @@ Rails::Initializer.run do |config|
   config.gem 'authlogic'
   config.gem 'haml'
   config.gem 'exifr'
-  config.gem 'less', :version => "= 1.2.21"
+  # clash with sitemap_generator: http://github.com/kjvarga/sitemap_generator/issues/closed#issue/14
+  #config.gem 'less', :version => "= 1.2.21"
   config.gem 'friendly_id'
+
+  config.gem 'sitemap_generator', :lib => false
   
   # TODO - change this to your time zone
   config.time_zone = 'Eastern Time (US & Canada)'

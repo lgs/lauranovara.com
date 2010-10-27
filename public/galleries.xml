@@ -9,19 +9,19 @@
     </auto_play>
     <prev_button>
       <defaults round_corners="5,5,5,5"/>
-      <tweenOver scaleY="1.1" tint="0xFFFFFF" scaleX="1.1"/>
+      <tweenOver scaleX="1.1" scaleY="1.1" tint="0xFFFFFF"/>
       <tweenOut tint="0x000000"/>
     </prev_button>
     <prev_symbol>
-      <tweenOver tint="0x000000" time="0.15"/>
+      <tweenOver time="0.15" tint="0x000000"/>
     </prev_symbol>
     <next_button>
       <defaults round_corners="5,5,5,5"/>
-      <tweenOver scaleY="1.1" tint="0xFFFFFF" scaleX="1.1"/>
+      <tweenOver scaleX="1.1" scaleY="1.1" tint="0xFFFFFF"/>
       <tweenOut tint="0x000000"/>
     </next_button>
     <next_symbol>
-      <tweenOver tint="0x000000" time="0.15"/>
+      <tweenOver time="0.15" tint="0x000000"/>
     </next_symbol>
     <description>
       <defaults heading_text_size="28" heading_text_color="0xFF9000" paragraph_text_size="18" paragraph_text_color="0xFFFFFF" round_corners="10, 10, 10, 10"/>
@@ -58,7 +58,7 @@
       </description>
     </slide>
     <slide>
-      <url>/attachments/galleries/6/original/3216679972_bc554cbb6d_b.jpg?1276976028</url>
+      <url>/attachments/galleries/6/original/5118779528_6a57732ff2_z.jpg?1288124114</url>
       <link target="_self">/galleries/funny</link>
       <description>
         <link target="_self">/galleries/funny</link>
