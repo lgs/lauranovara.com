@@ -8,9 +8,10 @@
 - if defined?(DEMO_MODE) and DEMO_MODE
   %p
     %strong 
-      We're running in demo mode. For login information use: 
+      /We're running in demo mode. For login information use: 
+      We're running in demo mode ;-0
       %br
-      photographer@grokphoto.org / password
+      /photographer@grokphoto.org / password
       
 = form_for :photographer_session, @photographer_session, :url => admin_photographer_session_path do |f|
   = f.error_messages
