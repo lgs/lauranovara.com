@@ -7,7 +7,7 @@
       %meta{ :name => "google-site-verification", :content => "#{@config.google_verification_key}" }
     %link{:rel => 'shortcut icon', :href => '/favicon.ico'}
     %meta{ :name => 'keywords', :content => defined?(@page_keywords) ? @page_keywords : "#{@config.company_name.downcase}, photography, professional, newborn, maternity, kids, babies, family, portraits, galleries, portfolio, toronto, ontario, canada" }
-    %meta{ :name => 'description', :content => defined?(@page_description) ? @page_description : "#{h(@config.company_name)}. Professional photographer in Toronto, ON, Canada. Specializing in newborn, maternity, kids, babies, and family portrait photography." }
+    %meta{ :name => 'description', :content => defined?(@page_description) ? @page_description : "#{h(@config.company_name)}. Professional photographer in Milan, Italy. Specializing in still life, portrait, weddings and family photography." }
     %title= @page_title ? "#{@page_title} - #{@config.company_name}" : "#{controller.controller_name.humanize.titleize} - #{@config.company_name}"
     = stylesheet_link_tag 'default.css', :media => 'screen, projection'
     = stylesheet_link_tag 'global/print.css', :media => 'print'

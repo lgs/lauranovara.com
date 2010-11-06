@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cu3er>
+  <settings>
+    <transitions duration="1.5"/>
+    <auto_play>
+      <defaults time="7" symbol="circular"/>
+      <tweenIn y="50" x="910" tint="0xFFFFFF" width="30" height="30" alpha="0.5"/>
+      <tweenOver alpha="1"/>
+    </auto_play>
+    <prev_button>
+      <defaults round_corners="5,5,5,5"/>
+      <tweenOver scaleX="1.1" scaleY="1.1" tint="0xFFFFFF"/>
+      <tweenOut tint="0x000000"/>
+    </prev_button>
+    <prev_symbol>
+      <tweenOver time="0.15" tint="0x000000"/>
+    </prev_symbol>
+    <next_button>
+      <defaults round_corners="5,5,5,5"/>
+      <tweenOver scaleX="1.1" scaleY="1.1" tint="0xFFFFFF"/>
+      <tweenOut tint="0x000000"/>
+    </next_button>
+    <next_symbol>
+      <tweenOver time="0.15" tint="0x000000"/>
+    </next_symbol>
+    <description>
+      <defaults heading_text_size="28" heading_text_color="0xFF9000" paragraph_text_size="18" paragraph_text_color="0xFFFFFF" round_corners="10, 10, 10, 10"/>
+      <tweenIn y="360" x="150" width="660" height="170" alpha="0.5"/>
+      <tweenOver alpha="0.8"/>
+    </description>
+  </settings>
+  <slides>
+    <slide>
+      <url>/attachments/galleries/5/original/5064576235_4d7de90fbf_z.jpg?1287527241</url>
+      <link target="_self">/galleries/jewels</link>
+      <description>
+        <link target="_self">/galleries/jewels</link>
+        <heading>Jewels </heading>
+        <paragraph>Precious shots</paragraph>
+      </description>
+    </slide>
+    <slide>
+      <url>/attachments/galleries/8/original/5097379655_99af0c92bd_z.jpg?1287527075</url>
+      <link target="_self">/galleries/people</link>
+      <description>
+        <link target="_self">/galleries/people</link>
+        <heading>People</heading>
+        <paragraph>Portraits</paragraph>
+      </description>
+    </slide>
+    <slide>
+      <url>/attachments/galleries/9/original/4575336011_2bbba0a733_b.jpg?1286651571</url>
+      <link target="_self">/galleries/food</link>
+      <description>
+        <link target="_self">/galleries/food</link>
+        <heading>Food</heading>
+        <paragraph>Tasty Shots</paragraph>
+      </description>
+    </slide>
+    <slide>
+      <url>/attachments/galleries/6/original/5118779528_6a57732ff2_z.jpg?1288124114</url>
+      <link target="_self">/galleries/funny</link>
+      <description>
+        <link target="_self">/galleries/funny</link>
+        <heading>Funny</heading>
+        <paragraph>Don't understimate funny side of photography
+</paragraph>
+      </description>
+    </slide>
+  </slides>
+</cu3er>
