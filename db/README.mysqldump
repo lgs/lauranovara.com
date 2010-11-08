@@ -4,6 +4,6 @@
 
 == DB restore:
 
-  mysql -u root lauranovara-db < lauranovara-db.sql.1 -p
+  mysql -u root lauranovara-db < lauranovara-db.sql -p
 
 

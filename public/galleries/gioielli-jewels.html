@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<meta content='text/html;charset=UTF-8' http-equiv='content-type'>
+<meta content='chrome=1' http-equiv='X-UA-Compatible'>
+<link href='/favicon.ico' rel='shortcut icon'>
+<meta content='Furla watch jewel jewels gioielli gioiello orologio acciaio tempo time stilllife still life macro ' name='keywords'>
+<meta content='Precious shots' name='description'>
+<title>Jewels  Gallery - Laura Novara Photography</title>
+<link href="/stylesheets/default.css?1286611029" media="screen, projection" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/global/print.css?1286611029" media="print" rel="stylesheet" type="text/css" />
+<!--[if lt IE 8]>
+<link href="/stylesheets/global/ie.css?1286611029" media="screen, projection" rel="stylesheet" type="text/css" />
+<![endif]-->
+<link href="/stylesheets/theme_all_default_with_flash.css?1286611029" media="screen, projection" rel="stylesheet" type="text/css" />
+<script src="/javascripts/theme_all_default_with_cache.js?1286611029" type="text/javascript"></script>
+
+<link href='/favicon.ico' rel='shortcut icon' type='image/x-icon'>
+<script type='text/javascript'>
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-6811376-3']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+</head>
+<body>
+<div id='container'>
+<div id='header'>
+<h1>
+<a href="/" title="Laura Novara Photography">Laura Novara Photography</a>
+</h1>
+<ul class='nav'>
+<li>
+<a href="/galleries" class="active" title="Photo Galleries">Galleries</a>
+</li>
+<li>
+<a href="/pages/about" class="" title="About">About</a>
+</li>
+<li>
+<a href="http://blog.lauranovara.com/" title="Blog">Blog</a>
+</li>
+</ul>
+</div>
+
+<!-- /- if @content_for_subnav -->
+<div id='subnav'>
+<ul><li class='last' style='padding-left: 0'>Select a Gallery:</li>
+<li class=''>
+<a href="/galleries/jewels" class="active" title="Jewels ">Jewels </a>
+</li>
+<li class=''>
+<a href="/galleries/people" class="" title="People">People</a>
+</li>
+<li class=''>
+<a href="/galleries/food" class="" title="Food">Food</a>
+</li>
+<li class='last'>
+<a href="/galleries/funny" class="" title="Funny">Funny</a>
+</li>
+</ul>
+</div>
+<script type='text/javascript'>
+  //<![CDATA[
+      
+    $(document).ready(function() {
+      
+      // using galleria for the gallery navigation / slideshow
+      // see http://devkick.com/lab/galleria/
+      $('ul.gallery_thumbs').galleria({
+      
+        history   : false, // activates the history object for bookmarking, back-button etc.
+        clickNext : false, // helper for making the image clickable
+        insert    : '.gallery_container', // the containing selector for our main image
+        onImage   : function(image,caption,thumb) { // let's add some image effects for demonstration purposes
+          // fade in the image & caption
+          if(! ($.browser.mozilla && navigator.appVersion.indexOf("Win")!=-1) ) { // FF/Win fades large images terribly slow
+            image.css('display','none').fadeIn(1400);
+          }
+          caption.css('display','none').fadeIn(1000);
+    
+          // fetch the thumbnail container
+          var _li = thumb.parents('li');
+    
+          // fade out inactive thumbnail
+          _li.siblings().children('img.selected').fadeTo(500,0.3);
+    
+          // fade in active thumbnail
+          thumb.fadeTo('fast',1).addClass('selected');
+    
+          // add a title for the clickable image
+          image.attr('title','Next image >>');
+        },
+        onThumb : function(thumb) { // thumbnail effects goes here
+    
+          // fetch the thumbnail container
+          var _li = thumb.parents('li');
+    
+          // if thumbnail is active, fade all the way.
+          var _fadeTo = _li.is('.active') ? '1' : '0.3';
+    
+          // fade in the thumbnail when finnished loading
+          thumb.css({display:'none',opacity:_fadeTo}).fadeIn(1500);
+    
+          // hover effects
+          thumb.hover(
+            function() { thumb.fadeTo('fast',1); },
+            function() { _li.not('.active').children('img').fadeTo('fast',0.3); } // don't fade out if the parent is active
+          )
+        }
+      
+      });
+      
+      // stop the slideshow if a thumbnail is clicked, we're assuming the user wants to navigate
+      // and a slideshow would be annoying if that's the case.
+      $('ul.gallery_thumbs li').click(function() {
+        stopSlideshow();
+      });
+      
+      // start the slideshow
+      startSlideshow();
+    });
+    
+    // start and stop methods for the slideshow
+    var intervalId;
+    function startSlideshow() {
+      intervalId = setInterval( '$.galleria.next()', 5000 );
+    }
+    function stopSlideshow() {
+      clearInterval ( intervalId );
+    }
+    // just resets the interval so we're not moving too fast when the next / prev links are used.
+    function resetSlideshow() {
+      stopSlideshow();
+      startSlideshow();
+    }
+  //]]>
+</script>
+<div id='content'>
+<div id='main'>
+<div class='gallery_container'></div>
+<p class='gallery_nav'>
+<a href='#' onclick='$.galleria.prev(); resetSlideshow(); return false;' title='Previous Page'>&laquo; prev</a>
+|
+<a href='#' onclick='$.galleria.next(); resetSlideshow(); return false;' title='Next Page'>next &raquo;</a>
+</p>
+</div>
+<div id='sidebar'>
+<h2>
+Jewels  Photos
+</h2>
+<p>
+Jump to a photo:
+</p>
+<ul class='gallery_thumbs'>
+<li class='active'>
+<img alt="5064576235 4d7de90fbf Z" src="/attachments/galleries/5/gallery_photos/86/original/5064576235_4d7de90fbf_z.jpg?1286651692" />
+</li>
+<li class=''>
+<img alt="5079551562 3335a19619 Z" src="/attachments/galleries/5/gallery_photos/106/original/5079551562_3335a19619_z.jpg?1287005619" />
+</li>
+<li class=''>
+<img alt="4372869029 35da4576d4 O" src="/attachments/galleries/5/gallery_photos/58/original/4372869029_35da4576d4_o.jpg?1275488203" />
+</li>
+<li class=''>
+<img alt="5079593358 0f1fb2519e Z" src="/attachments/galleries/5/gallery_photos/109/original/5079593358_0f1fb2519e_z.jpg?1287006602" />
+</li>
+<li class=''>
+<img alt="5078985141 Cfbc69bdd5 Z" src="/attachments/galleries/5/gallery_photos/107/original/5078985141_cfbc69bdd5_z.jpg?1287006137" />
+</li>
+<li class=''>
+<img alt="4432435952 374d654547 Z" src="/attachments/galleries/5/gallery_photos/110/original/4432435952_374d654547_z.jpg?1287006727" />
+</li>
+<li class=''>
+<img alt="5078991513 F567f92a46 Z" src="/attachments/galleries/5/gallery_photos/108/original/5078991513_f567f92a46_z.jpg?1287006345" />
+</li>
+<li class=''>
+<img alt="4857998678 354e9a6d0b Z" src="/attachments/galleries/5/gallery_photos/124/original/4857998678_354e9a6d0b_z.jpg?1288124598" />
+</li>
+</ul>
+<p class='clearfix'></p>
+</div>
+</div>
+
+<div id='footer'>
+<!-- old Rails 2.3.9 string escaping: -->
+<!-- = "Copyright &copy; 2010, #{h(@config.company_name)}, All Rights Reserved" -->
+Copyright &copy; 2010, Laura Novara Photography, All Rights Reserved
+<small>
+<a href="http://lauranovara.com" style="float:right;" target="_blank" title="lauranovara.com code is open-source. Please see  http://github.com/lgs/lauranovara.com">lauranovara.com</a>
+</small>
+</div>
+
+</div>
+</body>
+</html>
