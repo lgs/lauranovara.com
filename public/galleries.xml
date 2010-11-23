@@ -4,7 +4,7 @@
     <transitions duration="1.5"/>
     <auto_play>
       <defaults time="7" symbol="circular"/>
-      <tweenIn y="50" x="910" tint="0xFFFFFF" width="30" height="30" alpha="0.5"/>
+      <tweenIn y="50" x="910" width="30" height="30" alpha="0.5" tint="0xFFFFFF"/>
       <tweenOver alpha="1"/>
     </auto_play>
     <prev_button>
@@ -24,7 +24,7 @@
       <tweenOver time="0.15" tint="0x000000"/>
     </next_symbol>
     <description>
-      <defaults heading_text_size="28" heading_text_color="0xFF9000" paragraph_text_size="18" paragraph_text_color="0xFFFFFF" round_corners="10, 10, 10, 10"/>
+      <defaults paragraph_text_size="18" paragraph_text_color="0xFFFFFF" round_corners="10, 10, 10, 10" heading_text_size="28" heading_text_color="0xFF9000"/>
       <tweenIn y="360" x="150" width="660" height="170" alpha="0.5"/>
       <tweenOver alpha="0.8"/>
     </description>
