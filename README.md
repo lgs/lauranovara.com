@@ -1,6 +1,6 @@
 # Laura Novara Photography
 
-This is the source code for Laura Novara Photo Gallery [http://lauranovara.com/](http://lauranovara.com/). The site is based on a fork of Grokphoto a smart Ruby on Rails application hosted at [http://github.com/rapind/grokphoto](http://github.com/rapind/grokphoto)
+This is the source code for Laura Novara Photo Gallery [http://lauranovara.com/](http://lauranovara.com/). The site is based on a fork of Grokphoto a smart Ruby on Rails application hosted at [http://github.com/rapind/grokphoto](http://github.com/rapind/grokphoto), ported to Rails 3 by [Luca G. Soave](http://github.com/lgs)
 
 ![Laura Novara Photo Gallery](https://github.com/lgs/lauranovara.com/raw/master/public/images/lauranovara-photography.png)
 
