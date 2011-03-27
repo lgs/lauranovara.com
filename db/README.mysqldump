@@ -1,6 +1,7 @@
 == DB Dump:
 
   mysqldump --user=root --password=xxxxxxx lauranovara-db > lauranovara-db.sql
+  (see config/database.yml)
 
 == DB restore:
 
